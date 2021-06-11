@@ -5,3 +5,257 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+
+
+.img-size{
+    max-width: 100px;
+    margin: 1rem;
+}
+.register{
+    position: absolute;
+    right: 38px;
+    top: 35px;
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: 800;
+}
+.container-nav{
+    display: flex;
+}
+.nav{
+    display: flex;
+    margin-top: 130px;
+
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-bottom: 2rem;
+    
+}
+.not-active{
+    position: absolute;
+    left: 40px;
+    border-bottom: solid #f2f2f2 5px;
+    padding-bottom: 11px;
+}
+
+.active-link a{
+    position: absolute;
+    right: 40px;
+    border-bottom: solid #f2f2f2 5px;
+    padding-bottom: 11px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+.margin-h1 ,.p-section{
+    margin: 1rem;
+}
+.button-none{
+    visibility: hidden;
+}
+
+form > button {
+    color: white;
+    background-color: #0065FC;
+    font-weight: 600;
+    width: 45px;
+}
+.button-search{
+    height: 2.5rem;
+    border-style: none;
+    border-radius: 7px;
+    visibility: visible;
+}
+form input {
+    border: none;
+    height: 1.5rem;
+    margin: 1rem;
+}
+.search-bar {
+    display: flex;
+    margin: 1rem 0;
+    }
+  .search-p{
+      margin-top: 10px;
+  }
+  ::placeholder{
+      color: black;
+      font-weight: 600;
+  }
+  .icone-left {
+    border-radius: 1rem 0 0 1rem;
+    background: #f2f2f2;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    margin: 10px;
+}
+.filter-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-button{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-radius: 0 2rem 2rem 0;
+    border-color: #e0e0e0;
+    padding: 3px;
+    height: 38px;
+    margin: 10px;
+    font-weight: 700;
+
+}
+.filter-button i{
+    border-radius: 2.6rem ;
+    background: #deebff;
+    position: relative;
+    right: 1rem;
+    height: 2.6rem;
+    width: 2.6rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #0065FC;
+   
+}
+.filter-button a{
+    text-decoration: none;
+    color: black;
+}
+.filter-text{
+    display: flex;
+    margin-top: 3rem;
+}
+.filter-text p{
+    position: relative;
+    left: 10px;
+}
+.filter-text i{
+
+    display: flex;
+    border-radius: 2rem;
+    color: #0065fc;
+
+ }
+ .filter-title{
+     margin-top: 10px;
+ }
+ .img-size-1{
+    width: 100%;
+    padding: 10px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 2.8rem 2.8rem 0 0;
+    border-style: solid, white;
+    box-shadow: 0 0 2em  #deebff;
+}
+.star-grey{
+    color: #d3d3d3e7;
+}
+.star-blue{
+    color: #0065fc;
+}
+article p{
+    margin: 10px;
+    
+}
+.margin-top-p{
+    margin: 1rem;
+}
+.icone-aside{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-size-populaire {
+    height: 140px;
+    padding: 9px;
+    border-radius: 1.8rem 0 0 1.8rem;
+    object-fit: cover;
+    border-style: solid, white;
+    box-shadow: 0 0 2em  #deebff;
+    width: 150px;
+}
+aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: #f2f2f2;
+
+}
+.right-text{
+    display: flex;
+}
+ @media screen and (min-width: 768px) and (max-width: 1279px){
+
+}
+
+@media screen and (min-width: 1280px){
+
+
+    body{
+        width: 1280px;
+        margin:auto;
+    }
+    .button-search{
+        visibility: hidden;
+    }
+    .button-none{
+        visibility: visible;
+        width: 100px;
+        border-radius: 0 7px 7px 0;
+        height: 2.5rem;
+        border: none;
+    }
+    .filter-text{
+        margin-top: 1rem;
+        display: flex;
+    }
+    .filter-button{
+        width: 170px;
+        margin-left: 45px;
+    }
+    .p-section{
+        margin: 1rem;
+    }
+    li{
+        position: relative;
+        left: 49rem;
+        bottom: 6.5rem;
+    }
+    .margin-h1{
+        margin: auto;
+    }
+    .not-active, .active-link{
+        position: relative;
+        left: 58rem;
+        border: none;
+    }
+    .nav-list li a:hover{
+        border-top: solid blue 5px;
+        padding-top: 20px;
+    }
+    .register{
+        top: 24px;
+    }
+    .filter-title {
+        margin: 1rem;
+    
+    }
+    .active-link a{
+        border: none;
+    }
+}
