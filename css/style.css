@@ -241,6 +241,22 @@ aside{
     object-fit: cover;
     border-radius: 25px 25px 0 0;
 }
+.footer-1,.footer-2,.footer-3{
+    padding: 15px;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: blue;
+}
+
  @media screen and (min-width: 768px) and (max-width: 1279px){
 
 }
@@ -315,9 +331,9 @@ aside{
     }
     .img-hebergements-content
     {
-display:flex;
-flex-wrap:wrap;
-justify-content: space-around;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
 
     }
     aside{
@@ -355,6 +371,21 @@ justify-content: space-around;
 }
 .title-activites{
     margin-top: 50px;
+}
+.container-3{
+    display: flex;
+    background-color: #f2f2f2;
+    flex-direction: row;
+}
+.footer-1{
+    width: 33%;
+    margin: 10px;
+}
+.footer-2{
+    width: 33%;
+}
+.footer-3{
+    width: 33%;
 }
 
 }
