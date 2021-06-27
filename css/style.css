@@ -23,12 +23,12 @@
 .container-nav{
     display: flex;
 }
-.nav{
+ nav{
     display: flex;
     margin-top: 130px;
 
 }
-.nav-list {
+ul {
     display: flex;
     list-style: none;
     margin-bottom: 2rem;
@@ -55,6 +55,7 @@ li a{
 
 body{
     font-family: "Raleway", sans-serif;
+    font-size: 1rem;
 }
 .margin-h1 ,.p-section{
     margin: 1rem;
@@ -90,6 +91,7 @@ form input {
   ::placeholder{
       color: black;
       font-weight: 600;
+      font-size: 1.2rem;
   }
   .icone-left {
     border-radius: 1rem 0 0 1rem;
@@ -119,12 +121,15 @@ section{
     font-weight: 700;
 
 }
+.filter-button a:hover{
+    background: cadetblue;
+}
 .filter-button i{
     border-radius: 2.6rem ;
     background: #deebff;
     position: relative;
     right: 1rem;
-    height: 2.6rem;
+    height: 42px;
     width: 2.6rem;
     align-items: center;
     justify-content: center;
@@ -147,12 +152,17 @@ section{
 .filter-text i{
 
     display: flex;
-    border-radius: 2rem;
-    color: #0065fc;
+    border-radius: 15px;
+    border-color: #deebff;
+    border-style: solid;
+    width: 24px;
+    justify-content: center;
+    color: #0065FC;
+}
 
- }
  .filter-title{
-     margin-top: 10px;
+     font-size: 1.2rem;
+     margin: 10px;
  }
  .title-container-1{
      margin: 10px;
@@ -170,9 +180,9 @@ section{
 .star-blue{
     color: #0065fc;
 }
-article p{
+article p,h4{
     margin-left: 17px;
-    padding: 6px
+    padding: 3px;
     
 }
 .margin-top-p{
@@ -184,12 +194,12 @@ article p{
 }
 .img-size-populaire {
     height: 140px;
-    padding: 9px;
-    border-radius: 1.8rem 0 0 1.8rem;
+    border-radius: 15% 0 0 15%;
     object-fit: cover;
-    border-style: solid, white;
-    box-shadow: 0 0 2em  #deebff;
-    width: 150px;
+    border-style: solid none solid none;
+    width: 120px;
+    border-color: white;
+    border-width: 5px;
 }
 aside{
     width: 100%;
@@ -214,10 +224,9 @@ aside{
     border-radius: 20px;
 }
 .text-center{
-    margin: 7px;
+    margin: 10px;
     background-color: white;
     border-radius: 25px;
-    box-shadow: 0 0 2em  #deebff;
 }
 .container-1{
     display: flex;
@@ -232,14 +241,13 @@ aside{
 .img-fort-pomegues, .img-vieux-port{
     margin: 5px;
     border-radius: 25px;
-    box-shadow: 0 0 2em  #deebff;
 }
 .img-size-3, .img-size-1, .img-size-2, .img-size-4{
     width: 100%;
-    padding: 10px;
-    height: 160px;
+    padding: 5px;
     object-fit: cover;
     border-radius: 25px 25px 0 0;
+    height: 160px;
 }
 .footer-1,.footer-2,.footer-3{
     padding: 15px;
@@ -268,6 +276,9 @@ footer a:hover{
         width: 1280px;
         margin:auto;
     }
+    .container-nav{
+        height: 100px;
+    }
     .button-search{
         visibility: hidden;
     }
@@ -282,8 +293,13 @@ footer a:hover{
         margin-top: 1rem;
         display: flex;
     }
+    .filter-text i{
+        position: absolute;
+    }
+    .filter-text p{
+        margin-left: 10px;
+    }
     .filter-button{
-        width: 170px;
         margin-left: 45px;
     }
     .p-section{
@@ -302,7 +318,7 @@ footer a:hover{
         left: 58rem;
         border: none;
     }
-    .nav-list li a:hover{
+     li a:hover{
         border-top: solid blue 5px;
         padding-top: 20px;
     }
@@ -328,6 +344,7 @@ footer a:hover{
         background-color: #f2f2f2;
         flex-direction: column;
         border-radius: 1.8rem;
+        padding: 20px;
     }
     .img-hebergements-content
     {
@@ -363,9 +380,7 @@ footer a:hover{
     width: 25%;
     margin: 10px;
 }
-.container-2 img{
-    border-radius: 15px 15px 0 0;
-}
+
 .img-parc-national,.img-vieux-port{
     width: 25%;
 }
