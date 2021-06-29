@@ -5,8 +5,19 @@
     margin: 0%;
     box-sizing: border-box;
 }
+i:hover{
+    transform: scale(1.2);
+}
 
-
+img{
+    transition: 0.5s all ease-in-out;
+}
+.heberg-item:hover img{
+    transform: scale(1.2);
+}
+.right-text:hover img{
+    transform: scale(1.2);
+}
 
 .img-size{
     max-width: 100px;
@@ -121,8 +132,8 @@ section{
     font-weight: 700;
 
 }
-.filter-button a:hover{
-    background: cadetblue;
+.filter-button:hover{
+    background-color: rgb(202, 230, 231);
 }
 .filter-button i{
     border-radius: 2.6rem ;
@@ -147,7 +158,8 @@ section{
 }
 .filter-text p{
     position: relative;
-    left: 10px;
+    left: 30px;
+    bottom: 20px;
 }
 .filter-text i{
 
@@ -200,6 +212,7 @@ article p,h4{
     width: 120px;
     border-color: white;
     border-width: 5px;
+    
 }
 aside{
     width: 100%;
@@ -241,6 +254,21 @@ aside{
 .img-fort-pomegues, .img-vieux-port{
     margin: 5px;
     border-radius: 25px;
+}
+.img-fort-pomegues:hover img{
+    transform: scale(1.2);
+}
+.img-vieux-port:hover img{
+    transform: scale(1.2);
+}
+.img-notre-dame-longchamps:hover img{
+    transform: scale(1.2);
+}
+.img-parc-national:hover img{
+    transform: scale(1.2);
+}
+.img-pomegues-frioul:hover img{
+    transform: scale(1.2);
 }
 .img-size-3, .img-size-1, .img-size-2, .img-size-4{
     width: 100%;
@@ -289,6 +317,9 @@ footer a:hover{
         height: 2.5rem;
         border: none;
     }
+    .filter-container{
+        width: 67%;
+    }
     .filter-text{
         margin-top: 1rem;
         display: flex;
@@ -297,7 +328,8 @@ footer a:hover{
         position: absolute;
     }
     .filter-text p{
-        margin-left: 10px;
+        margin-left: 30px;
+        position: initial;
     }
     .filter-button{
         margin-left: 45px;
