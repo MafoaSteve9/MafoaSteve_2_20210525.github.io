@@ -1,8 +1,8 @@
 /* feuille de style RESERVIA */
 
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 2px;
+    margin: 0;
     box-sizing: border-box;
 }
 i:hover{
@@ -74,6 +74,7 @@ body{
 }
 .button-none{
     visibility: hidden;
+    font-family: "Raleway", sans-serif;
 }
 
 form > button {
@@ -81,12 +82,17 @@ form > button {
     background-color: #0065FC;
     font-weight: 600;
     width: 45px;
+    
 }
 .button-search{
     height: 2.5rem;
     border-style: none;
     border-radius: 7px;
     visibility: visible;
+}
+ button a{
+    text-decoration: none;
+    color: white;
 }
 form input {
     border: none;
@@ -101,10 +107,17 @@ form input {
   .search-p{
       margin-top: 10px;
   }
+  .search-bar i{
+    color: black;
+}
+.button-search i {
+    color: white;
+}
   ::placeholder{
       color: black;
       font-weight: 600;
       font-size: 1.2rem;
+      font-family: "Raleway", sans-serif;
   }
   .icone-left {
     border-radius: 1rem 0 0 1rem;
@@ -161,7 +174,7 @@ section{
 .filter-text p{
     position: relative;
     left: 30px;
-    bottom: 20px;
+    bottom: 35px;
 }
 .filter-text i{
 
@@ -310,7 +323,11 @@ footer a:hover{
 
 @media screen and (min-width: 1280px){
 
-
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
     body{
         width: 1280px;
         margin:auto;
