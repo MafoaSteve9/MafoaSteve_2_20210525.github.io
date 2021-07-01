@@ -1,7 +1,7 @@
 /* feuille de style RESERVIA */
 
 * {
-    padding: 2px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -71,6 +71,7 @@ body{
 }
 .margin-h1 ,.p-section{
     margin: 1rem;
+    width: 317px;
 }
 .button-none{
     visibility: hidden;
@@ -98,11 +99,9 @@ form input {
     border: none;
     height: 3rem;
     padding: 24px;
-    width: 247px;
 }
 .search-bar {
     display: flex;
-    margin: 1rem 0;
     height: 53px;
     }
   .search-p{
@@ -129,7 +128,7 @@ form input {
     justify-content: center;
 }
 section{
-    margin: 10px;
+    margin: 20px;
 }
 .filter-container{
     display: flex;
@@ -175,7 +174,7 @@ section{
 .filter-text p{
     position: relative;
     left: 30px;
-    bottom: 43px;
+    bottom: 22px;
 }
 .filter-text i{
 
@@ -233,11 +232,11 @@ article{
     
 }
 aside{
-    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
-
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .title-aside{
     margin: 20px;
@@ -248,7 +247,7 @@ aside{
 .icone-chart{
     display: flex;
     position: relative;
-    top: 20px;
+    top: 8px;
 }
 
 .right-text{
@@ -258,6 +257,7 @@ aside{
     background-color: white;
     border-radius: 20px;
     border-width: 5px;
+    margin-top: 20px;
 }
 .right-text i{
     margin-top: 40px;
@@ -355,7 +355,7 @@ footer a:hover{
         border: none;
     }
     .filter-container{
-        width: 67%;
+        width: auto;
     }
     .filter-text{
         margin-top: 1rem;
@@ -381,6 +381,7 @@ footer a:hover{
     }
     .margin-h1{
         margin: auto;
+        width: auto;
     }
     .not-active, .active-link{
         position: relative;
