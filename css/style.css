@@ -103,6 +103,7 @@ form input {
 .search-bar {
     display: flex;
     margin: 1rem 0;
+    height: 53px;
     }
   .search-p{
       margin-top: 10px;
@@ -174,7 +175,7 @@ section{
 .filter-text p{
     position: relative;
     left: 30px;
-    bottom: 35px;
+    bottom: 43px;
 }
 .filter-text i{
 
@@ -241,11 +242,15 @@ aside{
 .title-aside{
     margin: 20px;
 }
+.icone-aside a{
+    color: black;
+}
 .icone-chart{
     display: flex;
     position: relative;
     top: 20px;
 }
+
 .right-text{
     display: flex;
     width: 95%;
