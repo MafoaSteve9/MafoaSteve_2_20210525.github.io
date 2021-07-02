@@ -211,6 +211,11 @@ article p,h4{
 article{
     border: solid white;
 }
+article a{
+    text-decoration: none;
+    color: black;
+}
+
 .margin-top-p{
     margin: 1rem;
 }
@@ -427,10 +432,7 @@ footer a:hover{
     aside{
         border-radius: 1.8rem;
     }
-    article a{
-        text-decoration: none;
-        color: black;
-    }
+    
     .heberg-item 
     {
         width:250px;
